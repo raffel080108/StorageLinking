@@ -31,7 +31,6 @@ public class ItemTransferring extends BukkitRunnable {
             for (HashMap.Entry<Location, Location> entry : storedLocations.entrySet()) {
                 Location blockFrom = entry.getKey();
                 Location blockTo = entry.getValue();
-
                 Inventory target = ((Container) blockTo.getBlock().getState()).getInventory();
                 Inventory source = ((Container) blockFrom.getBlock().getState()).getInventory();
 
