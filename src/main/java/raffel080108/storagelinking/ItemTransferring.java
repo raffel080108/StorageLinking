@@ -22,7 +22,7 @@ import java.util.List;
 import static raffel080108.storagelinking.DataHandling.particlesEnabled;
 import static raffel080108.storagelinking.DataHandling.storedLocations;
 
-class ItemTransferring extends BukkitRunnable {
+public class ItemTransferring extends BukkitRunnable {
     public ItemTransferring() {}
 
     @Override
