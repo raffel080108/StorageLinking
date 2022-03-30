@@ -1,9 +1,0 @@
-name: StorageLinking
-version: '${project.version}'
-main: raffel080108.storagelinking.StorageLinking
-api-version: 1.18
-
-commands:
-    storageLinking:
-        description: StorageLinking commands - Use with no arguments for list of commands
-        usage: /storageLinking
