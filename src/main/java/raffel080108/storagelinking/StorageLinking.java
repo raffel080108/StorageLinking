@@ -73,7 +73,6 @@ public final class StorageLinking extends JavaPlugin {
                     containers.add(Material.CHEST);
                     containers.add(Material.BARREL);
                     containers.add(Material.TRAPPED_CHEST);
-                    return;
                 }
             }
 
